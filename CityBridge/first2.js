@@ -12,7 +12,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
     
     if (username === correctUsername && password === correctPassword) {
         // alert('Login successful');
-        window.location.href = 'index2.html';  // Redirect to a new page
+        window.location.href = 'index.html';  // Redirect to a new page
     } else {
         errorMessage.textContent = 'Invalid username or password';
     }
