@@ -66,7 +66,7 @@ body {
   }
   
   .search-btn i {
-    font-size: 20px; /* Adjust size as needed */
+    font-size: 22px; /* Adjust size as needed */
     color:#11cf24; /* Adjust color if needed */
   }
   
@@ -80,9 +80,11 @@ body {
     font-size: 16px;
     transition: background-color 0.3s; /* Smooth background color transition */
     margin-top: 10px;
-    margin-left: 140px;
+    margin-left: 120px;
   }
-  
+#Satna{
+  align-items: center;
+}
 .help{
   color: #11cf24;
 }
@@ -226,7 +228,7 @@ body {
     margin-bottom: 10px;
     color: #5F6368;
     font-weight: 500;
-    margin-left: 680px;
+    margin-left: 600px;
     margin-top: 60px;
 
 } 

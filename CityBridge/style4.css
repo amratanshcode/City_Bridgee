@@ -25,7 +25,7 @@ body {
   .Navbar h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    color: rgb(58, 6, 248);
+    color: rgb(225, 9, 34);
 
   }
   .Navbar h2{
@@ -82,7 +82,7 @@ body {
   }
   .button {
     display: flex;
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #ff5c04; /* Green background */
     color: white; /* White text */
     text-decoration: none; /* Remove underline */
@@ -90,7 +90,7 @@ body {
     font-size: 16px;
     transition: background-color 0.3s; /* Smooth background color transition */
     margin-top: 10px;
-    margin-left: 140px;
+    margin-left: 80px;
   }
 
 

@@ -12,22 +12,19 @@
     <script src="first2.js"></script>
 </head>
 <body>
-    <div id="Navbar">
-        <!-- Logo & Brand Name -->
-        <div class="logo-container">
-            <img src="logo.png" alt="CityBridge Logo">
-            <span class="poppins-thin">CityBridge</span>
+    <nav id="Navbar">
+        <div class="nav-left">
+            <img src="logo.png" alt="CityBridge Logo" class="logo">
+            <a href="#" class="poppin">CityBridge</a>
         </div>
 
-        <!-- Navigation Links -->
-        <div class="nav-links">
+        <div class="nav-middle">
             <div class="dropdown">
                 <button class="dropbtn">CityBridge for <i class="fas fa-chevron-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="#">Homes</a>
-                    <a href="#">Hostels</a>
-                    <a href="#">Groceries</a>
-                    <a href="#">Refurbished Furniture</a>
+                    <a href="index5.html">Home & Hostels</a>
+                    <a href="index3.html">Groceries</a>
+                    <a href="index4.html">Refurbished Furniture</a>
                     <a href="#" class="all-locations">In your Nearby <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -42,19 +39,17 @@
             </div>
         </div>
 
-        <!-- Buttons -->
-        <div class="button-group">
+        <div class="nav-right">
             <button class="login-button">Log in</button>
-            <button class="signin-button">Sign in for free</button>
+            <button class="signup-button">Sign in for free</button>
         </div>
-    </div>
-
+    </nav>
 
 <div class="hero-image">
   <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 
     <dotlottie-player src="https://lottie.host/f1238ff6-fda3-4dd1-b1f5-2a7b87d3c081/Dpq0ONm04K.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></dotlottie-player>
-        <h1>Worried How you manage in new City,<br>we are here to <span class="help">help</span><br><p>We help you to find the best Things around You :)</p><br>Introducing City Bridge</h1>
+        <h1>Worried How you manage in new City,<br>we are here to <span class="help">help</span><br><p>We help you to find the best Things around You :) </p></h1>
         
         <!-- <p>We help you to find the best Things around You</p> -->
         
@@ -123,7 +118,7 @@
         <h2>Find Top-Rated Grocery Stores Nearby</h2>
         <p>Explore grocery stores with high customer ratings right in your area.
             <br>Our website helps you find trusted places where quality meets convenience.</p>
-            <h2>Enjoy Quality Groceries with Confidence</h2>
+            <h2 id="ide">Enjoy Quality Groceries with Confidence</h2>
             <p>Rest assured about the quality of your groceries.
             <br>Our ratings reflect the experiences of other customers, so you can shop confidently.</p>
 
@@ -131,7 +126,7 @@
             <p>Choose to purchase goods from older shopkeepers and make a difference.  <br>Your choice can significantly impact their lives.  </p>
     
             <div id="content"></div>
-            <a href="index3.html" class="button">Explore More</a>
+            <a href="index3.html" class="button1">Explore More</a>
         </div>
     <img id="pdimg2" src="grocery.jpg">
 </div>
@@ -163,7 +158,7 @@
 
 
 <div class="testimonial-wrapper">
-    <h1 id="test">Testimonials</h1>
+    <span id="test">Testimonials</span>
     <div class="testimonial-track">
         <div class="testimonial">
             <div class="testimonial-text">
@@ -234,42 +229,40 @@
     </div>
 </div>
 
-
-    <footer>
-        <div class="footer-container">
-            <!-- Information Section -->
-            <div class="footer-info">
-                <h3>About Us</h3>
-                <p>Welcome to our accommodation platform, where we connect you with top-rated homes, hostels, grocery stores, and furniture suppliers. Enjoy a seamless experience with services tailored to your needs.</p>
-            </div>
-    
-            <!-- Contact Section -->
-            <div class="footer-contacts">
-                <h3>Contact Us</h3>
-                <ul>
-                    <li>Email: <a href="mailto:support@example.com">kavya2005raj@gmail.com</a></li>
-                    <li>Phone: <a href="tel:+1234567890">9661288016</a></li>
-                    <li>Address: Sastri Nagar,Sherganj,Satna,Madhya Pradesh</li>
-                </ul>
-            </div>
-    
-            <!-- Services Section -->
-            <div class="footer-services">
-                <h3>Our Services</h3>
-                <ul>
-                    <li><a href="#homes">Rental Homes</a></li>
-                    <li><a href="#hostels">Top-Rated Hostels</a></li>
-                    <li><a href="#groceries">Grocery Stores</a></li>
-                    <li><a href="#furniture">Furniture Suppliers</a></li>
-                </ul>
-            </div>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section about">
+            <h2>About Us</h2>
+            <p>Welcome to our accommodation platform, where we connect you with:</p>
+            <ul>
+                <li>&#8226; Top-rated homes</li>
+                <li>&#8226; Best hostels for students and professionals</li>
+                <li>&#8226; High-quality grocery stores</li>
+                <li>&#8226; Reliable furniture suppliers</li>
+            </ul>
+            <p>Enjoy a seamless experience with services tailored to your needs.</p>
         </div>
-    
-        <!-- Footer Bottom -->
-        <div class="footer-bottom">
-            <p>&copy; 2024 CityBridge. All rights reserved.</p>
+        <div class="footer-section contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:kavya2005raj@gmail.com">kavya2005raj@gmail.com</a></p>
+            <p>Phone: <a href="tel:9661288016">9661288016</a></p>
+            <p>Address: Sastri Nagar, Sherganj, Satna, Madhya Pradesh</p>
         </div>
-    </footer>
+        <div class="footer-section services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>&#8226; <a href="#">Rental Homes</a></li>
+                <li>&#8226; <a href="#">Top-Rated Hostels</a></li>
+                <li>&#8226; <a href="#">Grocery Stores</a></li>
+                <li>&#8226; <a href="#">Furniture Suppliers</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 CityBridge. All rights reserved.</p>
+    </div>
+</footer>
+  
   
 </body>
 </html>
